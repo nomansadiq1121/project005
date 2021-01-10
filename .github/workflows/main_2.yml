@@ -35,7 +35,7 @@ jobs:
     with:
         cmd : install
     -name: creating build
-     run : yarn script-run build
+     run : yarn build
      
     -name: installing surge
      run : npm install -g surge
